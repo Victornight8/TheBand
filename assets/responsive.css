@@ -1,0 +1,123 @@
+/* PC */
+@media only screen and (min-width: 1024px){
+   #header .menu-mobile-btn{
+        display: none;
+   }
+}
+/* Tablet */
+@media only screen and ((min-width: 740px) and  (max-width:1023px)){ 
+    #header .menu-mobile-btn{
+        display: none;
+    }
+}
+/* Mobile */
+@media only screen and (max-width:740px){
+    .full-width{
+        width: 100%;
+    }
+    .mb-mt-top8px{
+        margin-top: 8px;
+    }
+    .place-body .btn{
+        padding: 15px 24px;
+        margin-left: 16px;
+        width: calc(100% - 30px);
+    }
+    #nav{
+        width: 100%;
+        position: relative;
+    }
+    #nav > li{
+        display: block;
+        width: 100%;
+    }
+    #nav > li:first-child{
+        display: inline-block !important;
+        width: auto;
+    }
+    #nav li a{
+        padding: 4px 13px;
+        text-align: left;
+    }
+    .nav-search{
+        display: none;
+    }
+    .menu-mobile-btn{
+        z-index: 1000;
+        float: right;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header.open-nav-mobile{
+        overflow: visible;
+        height: auto;
+    }
+    #slider .text-content{
+        display: none;
+    }
+    #content{
+        padding-bottom: 90px;
+    }
+    .member{
+        display: grid;
+    }
+    .member-item{
+        margin: 0 0 16px;
+    }
+    .member-item img{
+        width: 240px;
+        height: auto;
+    }
+    .place-list{
+        display: grid;
+        margin-top: 32px;
+    }
+    .place-list .col{
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 16px;
+        padding: 0;
+    }
+    .place-body{
+        padding-bottom: 16px;
+    }
+    .contact-info{
+        width: 100%;
+        margin-bottom: 16px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .contact-form>.col-half{
+        width: 100%;
+        float: none;
+    }
+    .contact-form.col{
+        padding: 0;
+    }
+    .contact-form .col-half{
+        width: 100%;
+    }
+    .col.col-half input{
+        padding: 15px;
+        margin: 5px 0; 
+    }
+    .modal-container{
+        max-width: 95%;
+        animation: modalFadeIn ease .6s;
+    }
+    .subnav {
+        display: none;
+    }
+    .js-has-subnav:hover .subnav {
+        display: block;
+    }
+    /* send btn */
+    .sendBtn{
+        display: inline-block;
+    }
+}   
