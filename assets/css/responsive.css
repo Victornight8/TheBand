@@ -1,17 +1,17 @@
 /* PC */
-@media only screen and (min-width: 1024px){
+@media only screen and (min-width:  64em){
    #header .menu-mobile-btn{
         display: none;
    }
 }
 /* Tablet */
-@media only screen and ((min-width: 740px) and  (max-width:1023px)){ 
+@media only screen and ((min-width: 46.25em) and  (max-width:63.9375em)){ 
     #header .menu-mobile-btn{
         display: none;
     }
 }
 /* Mobile */
-@media only screen and (max-width:740px){
+@media only screen and (max-width:46.1875em){
     .full-width{
         width: 100%;
     }
